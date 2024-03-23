@@ -1,0 +1,16 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 100%;
+  }
+
+/* 
+@media screen and (max-width: 640px) and (max-width: 1280px) {
+    .menu {
+        background-color: red;
+    }
+} */
