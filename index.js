@@ -3,27 +3,29 @@
 //                          FUNCIONES
 //--------------------------------------------------------------------------
 //----- AUDIO 
-function audioPlay() {
+// function audioPlay() {
     // if (audio.classList.contains("play")) {
         // audio.classList.remove("play");
         // audio.src = " ";
-        audio.classList.add("play");
-        audio.src = "./audio/RETRO DANCE 80 Y 90 S  DJ MATIAS TREJO.mp3";
-    // } 
+    //     audio.classList.add("play");
+    //     audio.src = "./audio/RETRO DANCE 80 Y 90 S  DJ MATIAS TREJO.mp3";
+    // // } 
     // else {
     //     audio.classList.add("play");
     //     audio.src = "./audio/RETRO DANCE 80 Y 90 S  DJ MATIAS TREJO.mp3";
     // }
 
-    audio.play();
-}
+    // audio.play();
+// }
 
 
 //---------------------------------------------------------------------------
 //                           INICIO HTML
 //---------------------------------------------------------------------------
 window.addEventListener("load", () => {
-    audioPlay();
+    // audioPlay();
+    audio.classList.add("play");
+    audio.src = "./audio/RETRO DANCE 80 Y 90 S  DJ MATIAS TREJO.mp3";
 });
 
 //-----------------------------------------------------------------------------
