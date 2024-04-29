@@ -7,22 +7,24 @@
    
 }
 
-body{
-    max-width: 100%;
+html ,body{
+    width: 100%;
+
 }
 
 @media screen and (max-width: 640px) and (max-width: 1280px) {
-    * {
-        margin: 1%;
-        justify-content: center;
-    }
+
 }
 
 header{
-    max-width: 100%;
+    width: 100%;
 
-    .img_principal{
-        max-width: 100%;
+    .contenedorImg{
+
+        .img_principal{
+            max-width: 100%;
+            border-radius: 1em;
+        }
     }
 }
 
@@ -61,39 +63,48 @@ header{
 }
 
 /*   CARROUSEL */
-.carrousel{
-    /* position: absolute; */
-    /* background-image: url(https://www.fixdate.io/modelo-invitacion/36/img/img_ondas03.svg
-    ); */
-
-    .conteiner__carrousel {
-        
-        display: flex;
-        justify-content: center;
-        
-        .list_carrousel {
-            
-            background: transparent;
-            padding: 30px;
-
-            
-            .element_carrousel {
-                display: flex;
-                align-items: center;
-                border: solid red 1px;
-                /* margin: auto 0; */
-                
-                
-                
-                
-                .image_carrousel {
-                    width: 100%;
-                    /* background: rebeccapurple;
-                    padding: 10% 10% 30% 10%; */
-                    
-                }
-            } 
-        }
+.carrouselSeccion{
+    border: solid 4px;
+    padding: 0%;
+    width: 100%;
+    .carrouselMias{
+        padding: 0%;
+        width: 100%;
     }
+
+    .carousel-inner{
+        border: solid gold 4px;
+        width: 100%;
+        height: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+    .M {
+        border: solid gold 4px;
+        width: 100%;
+    }
+    .carousel-item{
+        /* text-align: center; */
+        /* border: solid blue 4px; */
+        width: 100%;
+        img{
+            border: solid maroon 2px;
+            width: 100%;
+        }
+    } 
+
 }
 
+
+/* footer */
+
+#controlador-musica{
+    #play-pause-music{
+        background-color: red;
+        border-radius: 6em;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+}
