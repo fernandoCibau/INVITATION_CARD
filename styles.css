@@ -17,12 +17,20 @@ html ,body{
 
 header{
     width: 100%;
+    
 
     .contenedorImg{
-
+        margin: auto;
+        width: 50%;
+        
         .img_principal{
-            max-width: 100%;
+            width: 100%;
             border-radius: 1em;
+        }
+    }
+    @media(max-width: 768px ) {
+        .contenedorImg{
+            width: 100%;
         }
     }
 }
@@ -79,6 +87,8 @@ header{
     .carousel-item{
         width: 100%;
         text-align: center;
+
+
         img{
             border: groove gold 1em;
             border-radius: 1em;
