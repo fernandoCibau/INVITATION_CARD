@@ -64,36 +64,76 @@ header{
 
 /*   CARROUSEL */
 .carrouselSeccion{
-    border: solid 4px;
-    padding: 0%;
+    background-color:#FCF6F1;;
+    /* border: solid 4px; */
     width: 100%;
+    /* overflow: hidden; */
+    
     .carrouselMias{
         padding: 0%;
         width: 100%;
     }
 
     .carousel-inner{
-        border: solid gold 4px;
-        width: 100%;
-        height: 100%;
-        padding: 0%;
-        margin: 0%;
-    }
-    .M {
-        border: solid gold 4px;
+        /* border: solid gold 4px; */
         width: 100%;
     }
+
     .carousel-item{
-        /* text-align: center; */
-        /* border: solid blue 4px; */
         width: 100%;
+        text-align: center;
         img{
             border: solid maroon 2px;
-            width: 100%;
+            border-radius: 1em;
+            /* width: 100%; */
+
         }
     } 
 
 }
+
+#contenedorModal{
+    display: none;
+    background-color: rgb(240, 240, 240);
+    width: 35%;
+    height: 45%;
+    border-radius: 2em;
+    border: solid 4px;
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    z-index: 1;
+    overflow: hidden;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    color: black;
+    
+    a{
+        background-color: bisque;
+        font-weight: bold;
+        color: black;
+    }
+    div{
+        margin: 5% auto;
+
+    }
+    label{
+        margin: 1.5% auto;
+    }
+
+}
+@media(max-width: 768px){
+    #contenedorModal{
+        width: 70%;
+        height: 45%;
+        top: 30%;
+        left: 15%;
+    }
+    
+}
+
 
 
 /* footer */

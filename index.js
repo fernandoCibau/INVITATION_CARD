@@ -65,18 +65,6 @@ miBoton.addEventListener("click", () => {
 //                      CARROUSEL
 // ----------------------------------------------------------------------------
 
-// const segundosElement = 10;
-// let segundosRestantes = 10;
-
-// let intervalo =10;
-// function actualizarContador( intervalo) {
-//     intervalo--;
-
-//     if ( intervalo === 0) { return; }
-//     actualizarContador(intervalo);
-// }
-// actualizarContador(intervalo);
-
 
 window.addEventListener("load", () => {
     const glider = new Glider(document.querySelector('.list_carrousel'), {
@@ -111,10 +99,27 @@ window.addEventListener("load", () => {
 
 });
 
-
-// <a href="https://www.fixdate.io/modelo-invitacion/36/img/galeria/1.jpg"
-// data-fancybox="galeria" tabindex="-1">
-// <img src="https://www.fixdate.io/modelo-invitacion/36/img/galeria/1.jpg" alt="">
-// </a>
-
 //---------------------------------------------------------------------------
+// MODAL
+let botonModal = document.getElementById("botonModal");
+let modal = document.getElementById("contenedorModal");
+
+botonModal.addEventListener( "click", ()=>{
+
+
+    if( modal.style.display == "none"){
+        modal.style.display = "block";
+        return;
+    }
+
+    modal.style.display ="none";
+})
+
+let botonCerrarModal = document.getElementById("botonCerrarModal");
+let cerrarModal = document.getElementById("contenedorModal");
+
+botonCerrarModal.addEventListener( "click", ()=>{
+
+    cerrarModal.style.display ="none";
+})
+//-------------------------------------------------------------------------
