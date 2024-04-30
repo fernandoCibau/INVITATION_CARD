@@ -3,13 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* max-width: 100%; */
-   
+
 }
 
 html ,body{
     width: 100%;
-
+    overflow: auto;
 }
 
 @media screen and (max-width: 640px) and (max-width: 1280px) {
@@ -31,21 +30,18 @@ header{
 
 /* RELOG */
 .row {
-    /* d-flex justify-content-center align-items-center */
     display: flex;
     justify-content: center;
     align-items: center;
 
 
     .box-aros {
-        /* d-flex justify-content-center align-items-center */
         display: flex;
         justify-content: center;
         align-items: center;
 
 
         .box-circulo {
-            /* text-center */
             text-align: center;
             width: 150px;
             background-color: red;
@@ -65,9 +61,8 @@ header{
 /*   CARROUSEL */
 .carrouselSeccion{
     background-color:#FCF6F1;;
-    /* border: solid 4px; */
     width: 100%;
-    /* overflow: hidden; */
+
     
     .carrouselMias{
         padding: 0%;
@@ -75,21 +70,21 @@ header{
     }
 
     .carousel-inner{
-        /* border: solid gold 4px; */
         width: 100%;
+        text-align: center;
+        
+        
     }
 
     .carousel-item{
         width: 100%;
         text-align: center;
         img{
-            border: solid maroon 2px;
+            border: groove gold 1em;
             border-radius: 1em;
             /* width: 100%; */
-
         }
     } 
-
 }
 
 #contenedorModal{
@@ -131,6 +126,14 @@ header{
         top: 30%;
         left: 15%;
     }
+
+    .carousel-item{
+        img{
+            border: groove gold 1em;
+            border-radius: 1em;
+            width: 100%;
+        }
+    } 
     
 }
 
